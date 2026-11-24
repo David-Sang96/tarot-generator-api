@@ -1,0 +1,17 @@
+[project]
+name = "tarot-card-generation-api"
+version = "0.1.0"
+description = "FastAPI app that draws a random tarot card and returns its general meaning as JSON."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.165.0",
+    "pydantic-settings>=2.16.3",
+    "pyyaml>=6.0.4",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+]

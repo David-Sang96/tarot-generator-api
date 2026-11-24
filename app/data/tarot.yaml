@@ -1,0 +1,394 @@
+# Tarot deck data: 78 cards (22 Major Arcana, 56 Minor Arcana).
+# Meanings are short keyword summaries, based on the Labyrinthos
+# tarot card meanings list: https://labyrinthos.co/blogs/tarot-card-meanings-list
+cards:
+- name: The Fool
+  arcana: major
+  suit: null
+  upright: Innocence, new beginnings, free spirit.
+  reversed: Recklessness, taken advantage of, inconsideration.
+- name: The Magician
+  arcana: major
+  suit: null
+  upright: Willpower, desire, creation, manifestation.
+  reversed: Trickery, illusions, out of touch.
+- name: The High Priestess
+  arcana: major
+  suit: null
+  upright: Intuitive, unconscious, inner voice.
+  reversed: Lack of center, lost inner voice, repressed feelings.
+- name: The Empress
+  arcana: major
+  suit: null
+  upright: Motherhood, fertility, nature.
+  reversed: Dependence, smothering, emptiness, nosiness.
+- name: The Emperor
+  arcana: major
+  suit: null
+  upright: Authority, structure, control, fatherhood.
+  reversed: Tyranny, rigidity, coldness.
+- name: The Hierophant
+  arcana: major
+  suit: null
+  upright: Tradition, conformity, morality, ethics.
+  reversed: Rebellion, subversiveness, new approaches.
+- name: The Lovers
+  arcana: major
+  suit: null
+  upright: Partnerships, duality, union.
+  reversed: Loss of balance, one-sidedness, disharmony.
+- name: The Chariot
+  arcana: major
+  suit: null
+  upright: Direction, control, willpower.
+  reversed: Lack of control, lack of direction, aggression.
+- name: Strength
+  arcana: major
+  suit: null
+  upright: Inner strength, bravery, compassion, focus.
+  reversed: Self doubt, weakness, insecurity.
+- name: The Hermit
+  arcana: major
+  suit: null
+  upright: Contemplation, search for truth, inner guidance.
+  reversed: Loneliness, isolation, lost your way.
+- name: Wheel of Fortune
+  arcana: major
+  suit: null
+  upright: Change, cycles, inevitable fate.
+  reversed: No control, clinging to control, bad luck.
+- name: Justice
+  arcana: major
+  suit: null
+  upright: Cause and effect, clarity, truth.
+  reversed: Dishonesty, unaccountability, unfairness.
+- name: The Hanged Man
+  arcana: major
+  suit: null
+  upright: Sacrifice, release, martyrdom.
+  reversed: Stalling, needless sacrifice, fear of sacrifice.
+- name: Death
+  arcana: major
+  suit: null
+  upright: End of cycle, beginnings, change, metamorphosis.
+  reversed: Fear of change, holding on, stagnation, decay.
+- name: Temperance
+  arcana: major
+  suit: null
+  upright: Middle path, patience, finding meaning.
+  reversed: Extremes, excess, lack of balance.
+- name: The Devil
+  arcana: major
+  suit: null
+  upright: Addiction, materialism, playfulness.
+  reversed: Freedom, release, restoring control.
+- name: The Tower
+  arcana: major
+  suit: null
+  upright: Sudden upheaval, broken pride, disaster.
+  reversed: Disaster avoided, delayed disaster, fear of suffering.
+- name: The Star
+  arcana: major
+  suit: null
+  upright: Hope, faith, rejuvenation.
+  reversed: Faithlessness, discouragement, insecurity.
+- name: The Moon
+  arcana: major
+  suit: null
+  upright: Unconscious, illusions, intuition.
+  reversed: Confusion, fear, misinterpretation.
+- name: The Sun
+  arcana: major
+  suit: null
+  upright: Joy, success, celebration, positivity.
+  reversed: Negativity, depression, sadness.
+- name: Judgement
+  arcana: major
+  suit: null
+  upright: Reflection, reckoning, awakening.
+  reversed: Lack of self awareness, doubt, self loathing.
+- name: The World
+  arcana: major
+  suit: null
+  upright: Fulfillment, harmony, completion.
+  reversed: Incompletion, no closure.
+- name: Ace of Wands
+  arcana: minor
+  suit: wands
+  upright: Creation, willpower, inspiration, desire.
+  reversed: Lack of energy, lack of passion, boredom.
+- name: Two of Wands
+  arcana: minor
+  suit: wands
+  upright: Planning, making decisions, leaving home.
+  reversed: Fear of change, playing safe, bad planning.
+- name: Three of Wands
+  arcana: minor
+  suit: wands
+  upright: Looking ahead, expansion, rapid growth.
+  reversed: Obstacles, delays, frustration.
+- name: Four of Wands
+  arcana: minor
+  suit: wands
+  upright: Community, home, celebration.
+  reversed: Lack of support, transience, home conflicts.
+- name: Five of Wands
+  arcana: minor
+  suit: wands
+  upright: Competition, rivalry, conflict.
+  reversed: Avoiding conflict, respecting differences.
+- name: Six of Wands
+  arcana: minor
+  suit: wands
+  upright: Victory, success, public reward.
+  reversed: Excess pride, lack of recognition, punishment.
+- name: Seven of Wands
+  arcana: minor
+  suit: wands
+  upright: Perseverance, defensive, maintaining control.
+  reversed: Give up, destroyed confidence, overwhelmed.
+- name: Eight of Wands
+  arcana: minor
+  suit: wands
+  upright: Rapid action, movement, quick decisions.
+  reversed: Panic, waiting, slowdown.
+- name: Nine of Wands
+  arcana: minor
+  suit: wands
+  upright: Resilience, grit, last stand.
+  reversed: Exhaustion, fatigue, questioning motivations.
+- name: Ten of Wands
+  arcana: minor
+  suit: wands
+  upright: Accomplishment, responsibility, burden.
+  reversed: Inability to delegate, overstressed, burnt out.
+- name: Page of Wands
+  arcana: minor
+  suit: wands
+  upright: Exploration, excitement, freedom.
+  reversed: Lack of direction, procrastination, creating conflict.
+- name: Knight of Wands
+  arcana: minor
+  suit: wands
+  upright: Action, adventure, fearlessness.
+  reversed: Anger, impulsiveness, recklessness.
+- name: Queen of Wands
+  arcana: minor
+  suit: wands
+  upright: Courage, determination, joy.
+  reversed: Selfishness, jealousy, insecurities.
+- name: King of Wands
+  arcana: minor
+  suit: wands
+  upright: Big picture, leader, overcoming challenges.
+  reversed: Impulsive, overbearing, unachievable expectations.
+- name: Ace of Cups
+  arcana: minor
+  suit: cups
+  upright: New feelings, spirituality, intuition.
+  reversed: Emotional loss, blocked creativity, emptiness.
+- name: Two of Cups
+  arcana: minor
+  suit: cups
+  upright: Unity, partnership, connection.
+  reversed: Imbalance, broken communication, tension.
+- name: Three of Cups
+  arcana: minor
+  suit: cups
+  upright: Friendship, community, happiness.
+  reversed: Overindulgence, gossip, isolation.
+- name: Four of Cups
+  arcana: minor
+  suit: cups
+  upright: Apathy, contemplation, disconnectedness.
+  reversed: Sudden awareness, choosing happiness, acceptance.
+- name: Five of Cups
+  arcana: minor
+  suit: cups
+  upright: Loss, grief, self-pity.
+  reversed: Acceptance, moving on, finding peace.
+- name: Six of Cups
+  arcana: minor
+  suit: cups
+  upright: Familiarity, happy memories, healing.
+  reversed: Moving forward, leaving home, independence.
+- name: Seven of Cups
+  arcana: minor
+  suit: cups
+  upright: Searching for purpose, choices, daydreaming.
+  reversed: Lack of purpose, diversion, confusion.
+- name: Eight of Cups
+  arcana: minor
+  suit: cups
+  upright: Walking away, disillusionment, leaving behind.
+  reversed: Avoidance, fear of change, fear of loss.
+- name: Nine of Cups
+  arcana: minor
+  suit: cups
+  upright: Satisfaction, emotional stability, luxury.
+  reversed: Lack of inner joy, smugness, dissatisfaction.
+- name: Ten of Cups
+  arcana: minor
+  suit: cups
+  upright: Inner happiness, fulfillment, dreams coming true.
+  reversed: Shattered dreams, broken family, domestic disharmony.
+- name: Page of Cups
+  arcana: minor
+  suit: cups
+  upright: Happy surprise, dreamer, sensitivity.
+  reversed: Emotional immaturity, insecurity, disappointment.
+- name: Knight of Cups
+  arcana: minor
+  suit: cups
+  upright: Following the heart, idealist, romantic.
+  reversed: Moodiness, disappointment.
+- name: Queen of Cups
+  arcana: minor
+  suit: cups
+  upright: Compassion, calm, comfort.
+  reversed: Martyrdom, insecurity, dependence.
+- name: King of Cups
+  arcana: minor
+  suit: cups
+  upright: Compassion, control, balance.
+  reversed: Coldness, moodiness, bad advice.
+- name: Ace of Swords
+  arcana: minor
+  suit: swords
+  upright: Breakthrough, clarity, sharp mind.
+  reversed: Confusion, brutality, chaos.
+- name: Two of Swords
+  arcana: minor
+  suit: swords
+  upright: Difficult choices, indecision, stalemate.
+  reversed: Lesser of two evils, no right choice, confusion.
+- name: Three of Swords
+  arcana: minor
+  suit: swords
+  upright: Heartbreak, suffering, grief.
+  reversed: Recovery, forgiveness, moving on.
+- name: Four of Swords
+  arcana: minor
+  suit: swords
+  upright: Rest, restoration, contemplation.
+  reversed: Restlessness, burnout, stress.
+- name: Five of Swords
+  arcana: minor
+  suit: swords
+  upright: Unbridled ambition, win at all costs, sneakiness.
+  reversed: Lingering resentment, desire to reconcile, forgiveness.
+- name: Six of Swords
+  arcana: minor
+  suit: swords
+  upright: Transition, leaving behind, moving on.
+  reversed: Emotional baggage, unresolved issues, resisting transition.
+- name: Seven of Swords
+  arcana: minor
+  suit: swords
+  upright: Deception, trickery, tactics and strategy.
+  reversed: Coming clean, rethinking approach, deception.
+- name: Eight of Swords
+  arcana: minor
+  suit: swords
+  upright: Imprisonment, entrapment, self-victimization.
+  reversed: Self acceptance, new perspective, freedom.
+- name: Nine of Swords
+  arcana: minor
+  suit: swords
+  upright: Anxiety, hopelessness, trauma.
+  reversed: Hope, reaching out, despair.
+- name: Ten of Swords
+  arcana: minor
+  suit: swords
+  upright: Failure, collapse, defeat.
+  reversed: Can't get worse, only upwards, inevitable end.
+- name: Page of Swords
+  arcana: minor
+  suit: swords
+  upright: Curiosity, restlessness, mental energy.
+  reversed: Deception, manipulation, all talk.
+- name: Knight of Swords
+  arcana: minor
+  suit: swords
+  upright: Action, impulsiveness, defending beliefs.
+  reversed: No direction, disregard for consequences, unpredictability.
+- name: Queen of Swords
+  arcana: minor
+  suit: swords
+  upright: Complexity, perceptiveness, clear mindedness.
+  reversed: Cold hearted, cruel, bitterness.
+- name: King of Swords
+  arcana: minor
+  suit: swords
+  upright: Head over heart, discipline, truth.
+  reversed: Manipulative, cruel, weakness.
+- name: Ace of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Opportunity, prosperity, new venture.
+  reversed: Lost opportunity, missed chance, bad investment.
+- name: Two of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Balancing decisions, priorities, adapting to change.
+  reversed: Loss of balance, disorganized, overwhelmed.
+- name: Three of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Teamwork, collaboration, building.
+  reversed: Lack of teamwork, disorganized, group conflict.
+- name: Four of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Conservation, frugality, security.
+  reversed: Greediness, stinginess, possessiveness.
+- name: Five of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Need, poverty, insecurity.
+  reversed: Recovery, charity, improvement.
+- name: Six of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Charity, generosity, sharing.
+  reversed: Strings attached, stinginess, power and domination.
+- name: Seven of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Hard work, perseverance, diligence.
+  reversed: Work without results, distractions, lack of rewards.
+- name: Eight of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Apprenticeship, passion, high standards.
+  reversed: Lack of passion, uninspired, no motivation.
+- name: Nine of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Fruits of labor, rewards, luxury.
+  reversed: Reckless spending, living beyond means, false success.
+- name: Ten of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Legacy, culmination, inheritance.
+  reversed: Fleeting success, lack of stability, lack of resources.
+- name: Page of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Ambition, desire, diligence.
+  reversed: Lack of commitment, greediness, laziness.
+- name: Knight of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Efficiency, hard work, responsibility.
+  reversed: Laziness, obsessiveness, work without reward.
+- name: Queen of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Practicality, creature comforts, financial security.
+  reversed: Self-centeredness, jealousy, smothering.
+- name: King of Pentacles
+  arcana: minor
+  suit: pentacles
+  upright: Abundance, prosperity, security.
+  reversed: Greed, indulgence, sensuality.
