@@ -32,6 +32,49 @@ leave it open to the internet for a long time.
 
 To allow only this computer, remove `--host 0.0.0.0`.
 
+## Run (production)
+
+Production uses [Gunicorn](https://gunicorn.org/) with Uvicorn workers.
+Gunicorn starts several worker processes and restarts a worker if it crashes.
+There is no auto-reload.
+
+```bash
+uv sync --no-dev
+uv run --no-dev gunicorn app.main:app
+```
+
+The settings are in `gunicorn.conf.py`, and Gunicorn reads this file
+automatically. By default, the server listens on `0.0.0.0:8000` with one
+worker per CPU core (at most 4).
+
+| Environment variable  | Default        | Meaning                              |
+|-----------------------|----------------|--------------------------------------|
+| `GUNICORN_BIND`       | `0.0.0.0:8000` | Address and port to listen on        |
+| `GUNICORN_WORKERS`    | CPU cores, max 4 | Number of worker processes         |
+| `GUNICORN_TIMEOUT`    | `30`           | Seconds before a stuck worker restarts |
+| `GUNICORN_LOG_LEVEL`  | `info`         | Log level                            |
+
+### Run as a service (systemd)
+
+`deploy/tarot-api.service` starts the API when the server boots and restarts
+it if it stops. It expects the project in `/opt/tarot-generator-api` and the
+user `ubuntu-server`.
+
+```bash
+sudo cp deploy/tarot-api.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now tarot-api
+```
+
+Useful commands:
+
+```bash
+sudo systemctl status tarot-api     # Is it running?
+sudo journalctl -u tarot-api -f     # Follow the logs
+sudo systemctl reload tarot-api     # Restart workers after a code update
+sudo systemctl restart tarot-api    # Full restart
+```
+
 ## Endpoint
 
 `GET /v1/api/tarot-generate`
@@ -76,6 +119,8 @@ app/
 ├── services/tarot.py     # Load YAML, draw a card
 └── data/tarot.yaml       # 78 cards with upright/reversed meanings
 tests/
+gunicorn.conf.py          # Production server settings
+deploy/tarot-api.service  # systemd service file
 ```
 
 ## Configuration

@@ -1,0 +1,30 @@
+# systemd service for the Tarot Card Generation API.
+#
+# systemd starts the API when the server boots and restarts it if it stops.
+#
+# Install on the server:
+#   sudo cp deploy/tarot-api.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now tarot-api
+#
+# Change User and the paths below if your server is set up differently.
+
+[Unit]
+Description=Tarot Card Generation API (Gunicorn)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu-server
+Group=ubuntu-server
+WorkingDirectory=/opt/tarot-generator-api
+ExecStart=/opt/tarot-generator-api/.venv/bin/gunicorn app.main:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+# Optional settings, for example:
+# Environment=GUNICORN_WORKERS=2
+# Environment=GUNICORN_BIND=0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
