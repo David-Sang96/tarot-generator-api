@@ -18,10 +18,19 @@ uv sync
 ## Run (development server)
 
 ```bash
-uv run fastapi dev app/main.py
+uv run fastapi dev app/main.py --host 0.0.0.0
 ```
 
-The server runs at http://127.0.0.1:8000. You can see the interactive API docs at http://127.0.0.1:8000/docs.
+`--host 0.0.0.0` makes the server listen on all network interfaces, so other
+computers can call it, not only this one. The server runs on port 8000.
+
+- On this computer: http://127.0.0.1:8000 (API docs at http://127.0.0.1:8000/docs)
+- From another computer: `http://<this computer's IP>:8000`
+
+This is the development server, with auto-reload and public API docs. Do not
+leave it open to the internet for a long time.
+
+To allow only this computer, remove `--host 0.0.0.0`.
 
 ## Endpoint
 
